@@ -1,21 +1,25 @@
+import {link} from 'react-router-dom'; 8k (gzipped: 3.2k)
 import logoIcon from '/Logo.png'
-import cartIcon from './shopping-card.png'
+import cartIcon from '/shopping-cart 2.svg'
 
 
 function Header () {
     return (
-        <Header>
-            <img src={logoIcon} alt="Логотип" />
+        <header className='header'>
+            <div className="logo-container">
+            <img src={logoIcon} alt="Логотип" className='logo'/>
+            <p>QuickMeal</p>
+            </div>
 
-            <div>
+            <div className='links'>
                 <link to='/'>Home</link>
                 <link to='/categories'>All restaurants</link>
 
-                <button>
+                <button className='link-btn'>
                     <img src={cartIcon} alt="Корзинка" />
                 </button>
             </div>
-        </Header>
+        </header>
     )
 }
 
