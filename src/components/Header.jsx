@@ -1,4 +1,4 @@
-// import {link} from 'react-router-dom'; 8k (gzipped: 3.2k)
+import {Link} from 'react-router-dom';
 import logoIcon from '/Logo.png'
 import cartIcon from '/shopping-cart 2.svg'
 
@@ -11,11 +11,11 @@ function Header () {
             <p>QuickMeal</p>
             </div>
 
-            <div className='links'>
-                <link to='/'>Home</link>
-                <link to='/categories'>All restaurants</link>
+            <div className='Links'>
+                <Link to='/'>Home</Link>
+                <Link to='/categories'>All restaurants</Link>
 
-                <button className='link-btn'>
+                <button className='Link-btn'>
                     <img src={cartIcon} alt="Корзинка" />
                 </button>
             </div>
