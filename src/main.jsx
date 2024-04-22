@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import {
+/*import {
     createBrowserRouter,
     Link,
     RouterProvider,
@@ -25,7 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <RouterProvider router={router} />
     </React.StrictMode>,
 )
+*/ 
+const root = document.getElementById('root')
 
-//const root = document.getElementById('root')
-
-//ReactDOM.createRoot(root).render(<App />)
+ReactDOM.createRoot(root).render(<App />)

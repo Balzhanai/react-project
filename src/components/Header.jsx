@@ -1,4 +1,4 @@
-import {link} from 'react-router-dom'; 8k (gzipped: 3.2k)
+// import {link} from 'react-router-dom'; 8k (gzipped: 3.2k)
 import logoIcon from '/Logo.png'
 import cartIcon from '/shopping-cart 2.svg'
 
