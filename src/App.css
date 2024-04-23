@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .header {
   padding-left: 65px;
   padding-right: 56px;
@@ -10,4 +15,21 @@
   align-items: center;
   font-size: 24px;
   font-weight: bold;
+}
+
+.hero {
+  background: rgb(177, 221, 228);
+  text-align: center;
+  padding: 130px;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.main-btn {
+  background: black;
+  color: white;
+  padding: 13 px 24px;
+  border-radius: 4px;
 }

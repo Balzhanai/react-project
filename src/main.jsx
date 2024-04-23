@@ -1,17 +1,23 @@
 import React from 'react' 
 import ReactDOM from 'react-dom/client' 
 import App from './App.jsx'
+import CategoriesPage from './pages/Categories.jsx'
 import './index.css'
 import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom"; 
 
+
 const router = createBrowserRouter([
     {
         path: "/",
-        Element: <App/>
+        element: <App/>
     },
+    {
+        path: '/categories',
+        element: <CategoriesPage/>
+    }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
