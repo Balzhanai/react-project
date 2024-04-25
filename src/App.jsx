@@ -11,7 +11,7 @@ function App() {
     <div>
      <Header/>
      <HeroSection/>
-     <RestaurantList/>
+     
     </div>
   )
 }
